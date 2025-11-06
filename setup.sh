@@ -6,8 +6,7 @@ export HUGGINGFACE_TOKEN="TOKEN"
 
 apt-get update 
 apt-get -y install software-properties-common ca-certificates python3 python3-pip python-is-python3 wget git vim net-tools jq zip tmux pciutils
-
-# mkdir -p /mnt/disks/data/tmp /mnt/disks/data/pip-cache /mnt/disks/data/.cache
+mkdir -p /mnt/disks/data/tmp /mnt/disks/data/pip-cache /mnt/disks/data/.cache
 
 export SETUPTOOLS_ENABLE_FEATURES=legacy-editable
 export PYTHONPATH="$PWD:$PWD/finemoe/ops"
