@@ -2,7 +2,7 @@
 
 set -ex
 
-export HUGGINGFACE_TOKEN="TOKEN"
+export HUGGINGFACE_TOKEN="<token"
 
 apt-get update 
 apt-get -y install software-properties-common ca-certificates python3 python3-pip python-is-python3 wget git vim net-tools jq zip tmux pciutils

@@ -20,7 +20,7 @@
    ```
  5. Install CUDA 12.4 toolkit (gives nvcc)
     ```
-      sudo apt-get install -y cuda-toolkit-12-4 build-essential ninja-build cmake
+      sudo apt-get install -y cuda-toolkit-12-5 build-essential ninja-build cmake
     ```
   6.  Verify nvcc
     ```

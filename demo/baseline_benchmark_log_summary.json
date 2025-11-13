@@ -1,0 +1,7 @@
+{
+  "mode": "BASELINE (Naive Prefetch d=1)",
+  "avg_ttft_sec": 1.1208906969986856,
+  "avg_tpot_sec": 0.8850957219998236,
+  "avg_throughput_tps": 1.129821300842531,
+  "expert_cache_hit_rate": 10.936185836791992
+}

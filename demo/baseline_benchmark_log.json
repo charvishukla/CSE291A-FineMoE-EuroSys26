@@ -1,0 +1,18 @@
+[
+  {
+    "run": 1,
+    "mode": "BASELINE (Naive Prefetch d=1)",
+    "prompt": "...",
+    "output_text": " using the information provided in the question.\nThe United States has a high standard of",
+    "ttft_sec": 1.1142607049987419,
+    "tpot_sec": 0.8779973368664893
+  },
+  {
+    "run": 2,
+    "mode": "BASELINE (Naive Prefetch d=1)",
+    "prompt": "...",
+    "output_text": " la importancia de la investigaci\u00f3n cient\u00edfica.\nA pesar de que la investigaci\u00f3n",
+    "ttft_sec": 1.1275206889986293,
+    "tpot_sec": 0.8921941071331578
+  }
+]

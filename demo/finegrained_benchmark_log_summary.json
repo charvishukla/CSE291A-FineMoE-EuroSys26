@@ -1,0 +1,7 @@
+{
+  "mode": "FINE-GRAINED (Prefetch d=6)",
+  "avg_ttft_sec": 1.6980554310001026,
+  "avg_tpot_sec": 1.4106058490797295,
+  "avg_throughput_tps": 0.7089152513102039,
+  "expert_cache_hit_rate": -1.0
+}

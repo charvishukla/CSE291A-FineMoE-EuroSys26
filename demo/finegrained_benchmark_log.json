@@ -1,0 +1,42 @@
+[
+  {
+    "run": 1,
+    "mode": "FINE-GRAINED (Prefetch d=6)",
+    "prompt": "...",
+    "output_text": " que la formule de la somme des puissances de 2 est",
+    "ttft_sec": 1.5548332750004192,
+    "tpot_sec": 1.3679965273329193
+  },
+  {
+    "run": 2,
+    "mode": "FINE-GRAINED (Prefetch d=6)",
+    "prompt": "...",
+    "output_text": "-game.\n\nInputs: Two players, A and B, are playing a game of",
+    "ttft_sec": 1.7411042890016688,
+    "tpot_sec": 1.3923161261996333
+  },
+  {
+    "run": 3,
+    "mode": "FINE-GRAINED (Prefetch d=6)",
+    "prompt": "...",
+    "output_text": " = {\n    \"train\": \"https://raw.githubusercontent.com/ageron/h",
+    "ttft_sec": 1.6435746419992938,
+    "tpot_sec": 1.4151937935996102
+  },
+  {
+    "run": 4,
+    "mode": "FINE-GRAINED (Prefetch d=6)",
+    "prompt": "...",
+    "output_text": " herself in the third person and is very dramatic. My request is for you to",
+    "ttft_sec": 1.762161519000074,
+    "tpot_sec": 1.4167107195336333
+  },
+  {
+    "run": 5,
+    "mode": "FINE-GRAINED (Prefetch d=6)",
+    "prompt": "...",
+    "output_text": ". The language is called Postfix. The syntax is as follows:\n\n```\n",
+    "ttft_sec": 1.788603429999057,
+    "tpot_sec": 1.4608120787328516
+  }
+]
