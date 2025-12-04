@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
 import warnings, sys, os, json, argparse, transformers, random as rd, time, torch, numpy as np, statistics, copy
-
-# ---- your imports (unchanged) ----
 from finemoe import MoE
 from configs.common.config_common import offload_path, state_path, device_memory_ratio, device
 from configs.models.config_qwen import model_path, prefetch_distance, store_capacity
 from configs.datasets.config_lmsys import dataset_path, max_length, max_new_tokens, min_new_tokens
-
-# -------- CLI --------
 p = argparse.ArgumentParser()
 p.add_argument("--id", type=int, required=True, help="Worker ID (0..N-1)")
 p.add_argument("--runs", type=int, default=10, help="How many prompts this worker should run")
@@ -15,7 +11,6 @@ p.add_argument("--out", type=str, required=True, help="Output JSON path")
 p.add_argument("--seed", type=int, default=42)
 args = p.parse_args()
 
-# Optional: keep CPU contention low per worker
 os.environ.setdefault("OMP_NUM_THREADS", "1")
 os.environ.setdefault("MKL_NUM_THREADS", "1")
 try:
